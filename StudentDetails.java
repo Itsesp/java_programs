@@ -19,6 +19,7 @@ public class StudentDetails{
             String Phone = scanner.nextLine();
             System.out.print("Enter Percentage: ");
             double Percentage = scanner.nextDouble();
+            scanner.nextLine();
             student[i]=new Student(USN,Name,Branch,Phone,Percentage);
 
         }
